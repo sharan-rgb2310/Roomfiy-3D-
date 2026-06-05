@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm ci",
+  "framework": "react",
+  "env": {
+    "VITE_PUTER_WORKER_URL": {
+      "description": "Puter worker API endpoint for project management and AI rendering"
+    }
+  },
+  "regions": ["iad1"],
+  "public": true
+}
